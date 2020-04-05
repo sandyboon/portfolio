@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/animate.css" />
     <!-- Scrollbar Custom CSS -->
     <link
       rel="stylesheet"
@@ -26,52 +27,70 @@
     />
   </head>
   <body>
-    <div class="wrapper">
-      <nav id="sidebar" class="d-flex justify-content-center">
-        <!-- <div class="logo align-self-start">
+    <!-- <div class="wrapper"> -->
+    <nav id="sidebar" class="d-flex justify-content-center">
+      <!-- <div class="logo align-self-start">
           <a href="#"><img src="./assets/S.png" alt="S" /></a>
         </div> -->
-        <ul id="mainNavLinks" class="list-unstyled align-self-center ml-auto">
-          <li>
-            <a rel="index" href="" class=""><i class="fas fa-home"></i> </a>
-          </li>
-          <li>
-            <a rel="about" href="about/" class=""
-              ><i class="fas fa-user-tie"></i
-            ></a>
-          </li>
+      <ul id="mainNavLinks" class="list-unstyled align-self-center ml-auto">
+        <li>
+          <a rel="index" href="" class=""><i class="fas fa-home"></i> </a>
+        </li>
+        <li>
+          <a rel="about" href="about/" class=""
+            ><i class="fas fa-user-tie"></i
+          ></a>
+        </li>
 
-          <li>
-            <a rel="skills" href="skills/" class=""
-              ><i class="fas fa-cog"></i
-            ></a>
-          </li>
-          <li>
-            <a rel="gallery" href="portfolio/" class=""
-              ><i class="fas fa-briefcase"></i
-            ></a>
-          </li>
-          <li>
-            <a rel="contact" href="contact/" class=""
-              ><i class="far fa-envelope"></i
-            ></a>
-          </li>
-        </ul>
+        <li>
+          <a rel="skills" href="skills/" class=""><i class="fas fa-cog"></i></a>
+        </li>
+        <li>
+          <a rel="gallery" href="portfolio/" class=""
+            ><i class="fas fa-briefcase"></i
+          ></a>
+        </li>
+        <li>
+          <a rel="contact" href="contact/" class=""
+            ><i class="far fa-envelope"></i
+          ></a>
+        </li>
+      </ul>
 
-        <ul id="contactLinks" class="list-unstyled">
-          <li>
-            <a href=""><i class="fas fa-briefcase"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fas fa-briefcase"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fas fa-briefcase"></i></a>
-          </li>
-        </ul>
-      </nav>
-      <div id="content"></div>
-    </div>
+      <ul id="contactLinks" class="list-unstyled">
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- </div> -->
+    <main id="content" class="d-flex">
+      <div class="align-self-center mr-lg-5">
+        <h1 class="h1">
+          <p>
+            Hi, I am Sandy...
+          </p>
+          <p>A full stack developer.</p>
+        </h1>
+        <hr class="hr mb-0" />
+        <span>Front End Developer | Java Developer | Test Automation</span>
+
+        <!-- <div class="col-4">
+              <img class="img-fluid" src="./assets/work-collab.jpg" alt="dev at work">
+          </div> -->
+      </div>
+      <div class="align-self-end pl-lg-5 ml-lg-5">
+        <img
+          class="img-fluid animated fadeIn slow"
+          src="./assets/digitalart.png"
+          alt="dev at work"
+        />
+      </div>
+    </main>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
