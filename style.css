@@ -1,0 +1,129 @@
+body {
+  background-color: #f5f3bb /* rgb(29, 29, 29)*/;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+  display: block;
+  margin: 8px auto;
+  width: 24px;
+  height: auto;
+}
+
+/** Side bar styling**/
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* .navbar-nav {
+  flex-direction: row;
+} */
+
+#sidebar {
+  width: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #191716; /* rgb(24, 24, 24);*/
+  color: #fff;
+  transition: all 0.3s;
+}
+
+nav ul li {
+  padding-bottom: 10px;
+}
+
+#contactLinks {
+  bottom: 0;
+  position: fixed;
+}
+
+nav a {
+  font-size: 22px;
+  color: #989788; /* #4d4d4e;*/
+  display: block;
+  line-height: 51px;
+  height: 51px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav a i {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#mainNavLinks a {
+  margin-right: 17.6px;
+}
+
+#mainNavLinks a:hover i {
+  opacity: 0;
+}
+
+nav a.active,
+nav a:hover {
+  color: #df2935; /*  #08fdd8; Need to change this color*/
+}
+
+#mainNavLinks a:after {
+  content: '';
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  /* margin-left: -15px; */
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#mainNavLinks li:nth-child(1) a:first-child::after {
+  content: 'HOME';
+  margin-left: -10%;
+}
+
+#mainNavLinks li:nth-child(2) a:first-child::after {
+  content: 'ABOUT';
+  margin-left: -30%;
+}
+
+#mainNavLinks li:nth-child(3) a:first-child::after {
+  content: 'SKILLS';
+  margin-left: -30%;
+}
+
+#mainNavLinks li:nth-child(4) a:first-child::after {
+  content: 'PROJECT';
+  margin-left: -60%;
+}
+
+#mainNavLinks li:nth-child(5) a:first-child::after {
+  content: 'CONTACT';
+  margin-left: -60%;
+}
+
+#mainNavLinks a:hover:after {
+  opacity: 1;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: calc(100% - 60px);
+  padding: 40px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
