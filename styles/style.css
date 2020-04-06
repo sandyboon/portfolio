@@ -106,8 +106,8 @@ nav a:hover {
 }
 
 #mainNavLinks li:nth-child(4) a:first-child::after {
-  content: 'PROJECT';
-  margin-left: -60%;
+  content: 'WORK';
+  margin-left: -10%;
 }
 
 #mainNavLinks li:nth-child(5) a:first-child::after {
@@ -213,6 +213,16 @@ nav a:hover {
 .skillsBall6 p:first-of-type {
   padding-top: 37%;
   text-align: center;
+}
+
+/**
+Carousel styling
+**/
+
+#carouselExampleControls a span:first-of-type {
+  color: #df2935;
+  font-size: larger;
+  background-image: none;
 }
 
 /* ---------------------------------------------------
