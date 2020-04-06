@@ -126,13 +126,11 @@ nav a:hover {
 #content {
   margin-left: 150px;
   height: 100vh;
-  /* width: calc(100% - 60px);
-  padding: 40px;
-  min-height: 100vh;
-  transition: all 0.3s;
-  position: absolute;
-  top: 0;
-  right: 0; */
+}
+
+#skillContent {
+  margin-left: 100px;
+  height: 100vh;
 }
 
 .skillsBall {
@@ -146,15 +144,20 @@ nav a:hover {
   margin: 5px;
 }
 
-.skillsBall p {
+/* .skillsBall p {
   padding-top: 29%;
   text-align: center;
-}
+} */
 
 .skillsBall1 {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin-left: 48px;
+}
+
+.skillsBall1 p:first-of-type {
+  padding-top: 29%;
+  text-align: center;
 }
 
 .skillsBall2 {
@@ -163,16 +166,31 @@ nav a:hover {
   margin-left: 8px;
 }
 
+.skillsBall2 p:first-of-type {
+  padding-top: 30%;
+  text-align: center;
+}
+
 .skillsBall3 {
   width: 120px;
   height: 120px;
   margin-left: 0px;
 }
 
+.skillsBall3 p:first-of-type {
+  padding-top: 39%;
+  text-align: center;
+}
+
 .skillsBall4 {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   margin-left: 30px;
+}
+
+.skillsBall4 p:first-of-type {
+  padding-top: 35%;
+  text-align: center;
 }
 
 .skillsBall5 {
@@ -181,25 +199,20 @@ nav a:hover {
   margin-left: 30px;
 }
 
+.skillsBall5 p:first-of-type {
+  padding-top: 30%;
+  text-align: center;
+}
+
 .skillsBall6 {
   width: 80px;
   height: 80px;
   margin-left: 5px;
 }
 
-.myAnimations {
-  animation-name: bounce, flash, pulse;
-  -webkit-animation-name: bounce, flash, pulse;
-
-  /*
-  you can set different proporties to different animations too:
-  1s to bounce
-  2s to flash
-  3s to pulse
-  */
-
-  animation-duration: 1s, 2s, 3s;
-  -webkit-animation-duration: 1s, 2s, 3s;
+.skillsBall6 p:first-of-type {
+  padding-top: 37%;
+  text-align: center;
 }
 
 /* ---------------------------------------------------
@@ -209,5 +222,19 @@ nav a:hover {
 @media (max-width: 768px) {
   #content {
     margin-left: 80px;
+  }
+
+  .skillcontentArea {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 1024px) {
+  #content {
+    margin-left: 80px;
+  }
+
+  .skillcontentArea {
+    flex-direction: column-reverse;
   }
 }
