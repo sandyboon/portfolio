@@ -135,6 +135,73 @@ nav a:hover {
   right: 0; */
 }
 
+.skillsBall {
+  /* width: 80px;
+  height: 80px; */
+  /* border: 2px solid #191716; */
+  border-radius: 100%;
+  background: #df2935;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.skillsBall p {
+  padding-top: 29%;
+  text-align: center;
+}
+
+.skillsBall1 {
+  width: 40px;
+  height: 40px;
+  margin-left: 48px;
+}
+
+.skillsBall2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 8px;
+}
+
+.skillsBall3 {
+  width: 120px;
+  height: 120px;
+  margin-left: 0px;
+}
+
+.skillsBall4 {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.skillsBall5 {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+}
+
+.skillsBall6 {
+  width: 80px;
+  height: 80px;
+  margin-left: 5px;
+}
+
+.myAnimations {
+  animation-name: bounce, flash, pulse;
+  -webkit-animation-name: bounce, flash, pulse;
+
+  /*
+  you can set different proporties to different animations too:
+  1s to bounce
+  2s to flash
+  3s to pulse
+  */
+
+  animation-duration: 1s, 2s, 3s;
+  -webkit-animation-duration: 1s, 2s, 3s;
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
