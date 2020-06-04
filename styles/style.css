@@ -270,6 +270,10 @@ Carousel styling
   color: #df2935;
 }
 
+img.workart:hover {
+  cursor: pointer;
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
