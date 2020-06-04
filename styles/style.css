@@ -225,6 +225,51 @@ Carousel styling
   background-image: none;
 }
 
+.imgBanner {
+  position: absolute;
+  bottom: 30px;
+  width: 300px;
+  height: 50px;
+  z-index: 100;
+  margin-top: 150px;
+  padding: 0px;
+  background-color: rgb(25, 23, 22);
+  color: #989788;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+.redText {
+  color: #df2935;
+}
+
+.projectDesc {
+  color: #191716;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactCardHeader {
+  background-color: #191716;
+  color: #df2935;
+}
+
+.contactCardBody {
+  background-color: #f5f3bb;
+  color: #191716;
+}
+
+.blackText {
+  color: #191716;
+}
+
+.cardoutline {
+  border: 1px solid #191716;
+}
+
+.carousel-caption {
+  color: #df2935;
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
